@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+</head>
+
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .registration-container {
+      position: relative;
+      height: 150vh;
+      background-image: url('register img.jpeg'); /* Path to your background image */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .registration-form {
+      background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+      padding: 60px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 600px;
+    }
+
+    .registration-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size:40px;
+    }
+
+    .registration-form label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .registration-form input, .registration-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .registration-form textarea {
+      resize: vertical;
+    }
+
+    .registration-form button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    .registration-form a {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .registration-form button:hover {
+      background-color: #45a049;
+    }
+    
+      .registration-form a:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+        <div class="registration-container">
+        <div class="registration-form">
+        <h2>Register Page</h2>
+        <form action="regi" method="POST">
+        
+        
+        <label for="full-name"><b>First Name:</b></label>
+             <input type="text" id="firt-name" name="F-Name" required>
+             
+        <label for="full-name"><b>Last Name:</b></label>
+             <input type="text" id="last-name" name="L-Name" required>
+          
+         <label for="dob"><b>Date of Birth:</b></label>
+             <input type="date" id="dob" name="Dob" required>
+       
+         <label for="phone"><b>Phone Number:</b></label>
+             <input type="tel" id="phone" name="Phone" required>
+             
+         <label for="Alter-phoneNumber"><b>Alter PhoneNumber:</b></label>
+             <input type="tel" id="phone" name="alter-phonenumber" required>
+          
+         <label><b>Gender: </b></label>
+             <select name="gender" required>
+             <option value="Male">Male</option>
+             <option value="Female">Female</option>
+             <option value="Other">Other</option>
+             </select> <br><br>
+                       
+        <label for="email"><b>E-mail:</b></label>
+             <input type="email" id="email" name="Email" required>
+             
+        <label for="Password">Password:</label>
+             <input type="password" id="password" name="password" required>
+
+        <label for="Confirm-password">Confirm Password:</label>
+             <input type="password" id="confirm-password" name="confirm-password" required>
+             
+
+        <label for="address"><b>Home Address:</b></label>
+             <textarea id="address" name="address" rows="4" required></textarea>
+
+        <label for="email"><b>City</b></label>
+             <input type="city" id="city" name="city" required>
+             
+         <label for="email"><b>State</b></label>
+             <input type="state" id="state" name="state" required>
+             
+        <button type="submit"><b>Cancel</b></button> <br><br>
+         <button type="submit"><b>Confirm</b></button> <br><br>
+         <a href="LoginPage.html"> <b>Next</b></a>
+        
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+

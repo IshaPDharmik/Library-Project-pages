@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Starting Page</title>
+<style>
+  .container {
+    width: 100%;
+    max-width: 3000px; 
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .heading {
+    position: absolute;
+    top: 9%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: Black; 
+    font-size: 80px; 
+    font-weight: bold; 
+  }
+  
+  .next-button {
+    position: absolute;
+    bottom: 0.5px; 
+    right: 20px; 
+    padding: 15px 25px;
+    background-color: skyblue;
+    color: Black;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  
+  .dropdown {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background-color: skyblue;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  select {
+    background-color: skyblue;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  select:focus {
+    outline: none;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="Visite">
+  <div class="container">
+  <
+    <img src="imggg.jpg" height="900px" width="1700px">
+    
+    <div class="heading">Library Card</div>
+    <div class="dropdown">
+      
+      <select onchange="location = this.value;">
+        <option value="#">Menu</option>
+        <option value="RegisterPage.html">Register</option>
+        <option value="LoginPage.html">Login</option>
+        <option value="About Us.html">About Us</option>
+      </select>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
